@@ -2,12 +2,14 @@ import Card from "./components/Card/Card"
 import Form from "./components/Form/Form"
 import './App.css'
 
-function App() {  
+function App() {
 
   return (
     <>
-      <Card />
-      <Form />
+      <div className="container">
+        <Card />
+        <Form />
+      </div>
     </>
   )
 }
